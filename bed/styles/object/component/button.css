@@ -1,0 +1,39 @@
+/* flat-button */
+.c-flat-button {
+  display: inline-block;
+  position: relative;
+  min-width: 120px;
+  padding: 12px 30px;
+  margin: 5px;
+  background: #fff;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+}
+
+.c-flat-button::after {
+  content: '>';
+  position: absolute;
+  right: 8px;
+}
+
+.c-flat-button:hover {
+  opacity: .7;
+}
+
+/* stroked-button */
+.c-stroked-button {
+  display: inline-block;
+  padding: 12px 40px;
+  text-decoration: none;
+  border: solid 2px #acd3e2;
+  letter-spacing: .5em;
+  position: relative;
+
+}
+
+.c-stroked-button::after {
+  content: '>';
+  position: absolute;
+  right: 5px;
+}

@@ -1,0 +1,31 @@
+.p-infor{
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.p-infor__top{
+    margin: 0 40px;
+}
+
+.p-infor__date{
+    margin: 0 20px;
+}
+
+.p-infor__date::before{ 
+    content: "|";
+    font-size: 1.5em;
+    margin: 0 20px 0 0;
+
+}
+
+.p-infor__title{
+    margin: 0 10px;
+}
+
+.p-infor__more{
+    margin-right: auto;
+}

@@ -1,0 +1,81 @@
+/* マットレス */
+.l-mattress{
+  margin-top: 50px;
+
+}
+
+.c-mattress__heading {
+  text-align: center;
+  padding: 0 20px 0 20px;
+  
+}
+
+.p-mattess__title {
+  font-size: 1.5em;
+  padding: 160px 0 50px 0;
+}
+
+.p-mattress__title__sub {
+  font-size: 1em;
+  padding: 50px 0 15px 0;
+}
+
+.p-mattress__title__main {
+  font-size: 2em;
+  padding: 0 0 60px 0;
+}
+
+/* アイコン */
+.c-icon {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.p-mattess__circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: solid 1px skyblue;
+  margin: 0 auto 10px;
+}
+
+.p-mattress__icon {
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.p-mattess__icon__title {
+  font-size: 15px;
+}
+
+.p-mattess__icon__title__sub {
+  font-size: 10px;
+  
+}
+
+.p-mattress__detail {
+  font-size: 15px;
+  text-align: center;
+  line-height:25px;
+  margin: 20px 0 100px 0;
+}
+
+/*　画面サイズが480pxからはここを読み込む　*/
+@media screen and (min-width:480px) and (max-width: 767px) {
+  .c-icon{
+    flex-direction: column;
+  }
+}
+
+/* 画面サイズが768pxから1024pxまではここを読み込む */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/*　画面サイズが1024pxからはここを読み込む　*/
+@media screen and (min-width:1024px) {
+
+}
+

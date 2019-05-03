@@ -1,0 +1,51 @@
+.p-slide {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.p-slide .p-slide__img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  animation: bgAnime 20s infinite;
+}
+
+@keyframes bgAnime {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.p-slide .p-slide__img:nth-of-type(2) {
+  animation-delay: 5s;
+}
+
+.p-slide .p-slide__img:nth-of-type(3) {
+  animation-delay: 10s;
+}
+
+.p-slide .p-slide__img:nth-of-type(4) {
+  animation-delay: 15s;
+}
+
+
+
+

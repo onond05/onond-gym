@@ -1,0 +1,25 @@
+/* リンク */
+.l-link {
+  clear: both;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-link__button {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.p-alert {
+  margin: 10px 0 0 0;
+  font-size: .8em;
+  text-align: left;
+}
+
+@media screen and (min-width:480px) and (max-width: 767px) {
+  .l-link {
+    flex-direction: column;
+  }
+}

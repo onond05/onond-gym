@@ -1,0 +1,95 @@
+.l-welcome {
+  background-color: #f6ae97;
+  display: flex;
+  width: 100%;
+  height: 478px;
+}
+
+.c-welcome__text {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 20px 0 20px;
+}
+
+.p-welcome__top__main {
+  padding: 30px 0 0 0;
+  font-size: 2rem;
+  line-height: 1.5em;
+}
+
+.c-welcome__middle {
+  font-size: 2.5rem;
+  padding: 50px 0 0 0;
+}
+
+.c-welcome__end {
+  font-size: 1rem;
+  padding: 60px 0 0 0;
+  line-height:1.5em
+}
+
+.p-welcome__img {
+  width: 100%;
+  height: auto;
+}
+
+/*　画面サイズが480pxからはここを読み込む　*/
+@media screen and (min-width:480px) and (max-width: 767px) {
+  .l-welcome {
+    height: 478px;
+    padding: 0 0 120px 0;
+    display: block;
+    flex-direction: column;
+  }
+
+  .p-welcome__img {
+    /* position: absolute; */
+    /* right: 0; */
+    bottom: 0;
+  }
+
+  .c-welcome__middle{
+    text-align: center;
+  }
+}
+
+/* 画面サイズが768pxから1024pxまではここを読み込む */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .l-welcome {
+    height: 478px;
+    padding: 0 0 310px 0;
+    display: block;
+    flex-direction: column;
+  }
+
+  .p-welcome__img {
+    /* position: absolute; */
+    /* right: 0; */
+    bottom: 0;
+  }
+
+  .c-welcome__middle {
+    text-align: center;
+  }
+
+  .c-welcome__text {
+    padding: 0 30px 0 30px;
+  }
+
+}
+
+/*　画面サイズが1024pxからはここを読み込む　*/
+@media screen and (min-width:1024px) {
+  .p-welcome__img {
+    width: auto;
+  }
+
+  .l-welcome {
+    display: flex;
+  }
+
+  .c-welcome__middle {
+    padding: 30px 0 0 20px ;
+  }
+}

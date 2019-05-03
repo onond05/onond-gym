@@ -1,0 +1,9 @@
+.stroked-button{
+    display: block;
+	width: 50px;
+	padding: 0.5em;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+}

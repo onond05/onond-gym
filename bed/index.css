@@ -1,0 +1,347 @@
+/* フロント */
+.l-welcom {
+  background-color: #f6ae97;
+  display: flex;
+  width: 100%;
+  height: 478px;
+  /* justify-content:center; */
+}
+
+.c-welcom__text {
+  position: relative;
+  left: 80px;
+  width: 500px;
+}
+
+.p-welcom__top__main {
+  padding: 30px 0 0 0;
+  font-size: 2.5em;
+  /* line-height: 1.5em; */
+}
+
+.c-welcom__middle {
+  font-size: 3em;
+  padding: 50px 0 0 50px;
+}
+
+.c-welcom__end {
+  /* font-size: 1em; */
+  padding: 60px 0 0 0;
+}
+
+/* マットレス */
+.c-mattress__heading {
+  text-align: center;
+  top: 50px;
+}
+
+.p-mattess__title {
+  font-size: 2em;
+  /* color:#575757; */
+  padding: 160px 0 50px 0;
+}
+
+.p-mattress__title__sub {
+  /* font-size: 1em; */
+  /* color: #575757; */
+  padding: 50px 0 15px 0;
+}
+
+.p-mattress__title__main {
+  /* font-size: 2em; */
+  /* color: #575757; */
+  padding: 0 0 60px 0;
+}
+
+/* アイコン */
+.c-icon {
+  display: flex;
+  justify-content: center;
+  /* color: skyblue; */
+  width: 90%;
+  margin: 0 auto;
+}
+
+.p-mattess__circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: solid 1px skyblue;
+  margin: 0 auto 10px;
+}
+
+.p-mattress__icon {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.p-mattess__icon__title {
+  font-size: 15px;
+  /* color: skyblue; */
+}
+
+.p-mattess__icon__title__sub {
+  font-size: 10px;
+  /* color: skyblue; */
+}
+
+.p-mattress__detail {
+  font-size: 15px;
+  /* color: #575757; */
+  text-align: center;
+  /* line-height:25px; */
+  margin: 20px 0 100px 0;
+}
+
+/* マイクロテックコレクション　*/
+.l-collection {
+  display: flex;
+}
+
+.c-collection__MT {
+  background-color: #acd3e2;
+  width: 50%;
+  height: 1000px;
+  text-align: center;
+  /* float : left;  */
+}
+
+.p-collection__title-sub {
+  font-size: 15px;
+  /* color: #ffffff; */
+  padding: 120px 0 10px;
+}
+
+.p-collection__title-main {
+  /* font-size: 25px; */
+  /* color: #ffffff; */
+  padding: 5px 0 5px 0;
+}
+
+.p-collection__detail {
+  /* font-size: 15px; */
+  /* color: #ffffff; */
+  margin: 50px auto;
+  /* line-height:20px; */
+  width: 500px;
+}
+
+.c-collection__button {
+  display: inline-block;
+  position: relative;
+  width: 140px;
+  padding: 10px;
+  margin: 80px 0 0 0;
+  text-align: right;
+  text-decoration: none;
+  color: #acd3e2;
+  background: #fff;
+  clear: both;
+  transition: all .5s;
+}
+
+/* マイクロテックハイブリットコレクション　*/
+.c-collection__MThybrid {
+  background-color: #91b493;
+  height: 1000px;
+  width: 50%;
+  text-align: center;
+  /* float : right; */
+}
+
+.c-collection__MThybrid__button {
+  display: inline-block;
+  position: relative;
+  width: 230px;
+  padding: 10px ;
+  margin: 80px 0 0 0;
+  text-align: right;
+  text-decoration: none;
+  color: #91b493;
+  background: #fff;
+  clear: both;
+}
+
+.p-collection__img {
+  position: relative;
+  bottom: 340px;
+  height: 200px;
+  text-align: center;
+}
+
+/* ベット　*/
+.l-bed {
+  /* position: relative; */
+  top: 300px;
+  background-color: #d9c6c6;
+  height: 300px;
+  /* clear: both */
+  display: flex;
+}
+
+.p-bed-img {
+  /* float: left; */
+  text-align: center;
+  width: 50%;
+  padding: 30px 0 0 0;
+}
+
+.p-bed__text {
+  /* float : right; */
+  text-align: left;
+  width: 50%;
+}
+
+.p-bed__title__sub {
+  font-size: 15px;
+  /* color: #ffffff; */
+  padding: 50px 0 5px 10px;
+}
+
+.p-bed__title__main {
+  font-size: 25px;
+  /* color: #ffffff; */
+  padding: 10px 0 5px 10px;
+}
+
+.p-bed__detail {
+  font-size: 15px;
+  /* color: #ffffff; */
+  /* line-height:1.5em; */
+  padding: 10px 0 10px 10px;
+  width: 400px;
+}
+
+.c-bed__button {
+  display: block;
+  position: relative;
+  width: 140px;
+  padding: 5px 0 5px 0;
+  margin: 0 0 0 10px;
+  text-align: right;
+  text-decoration: none;
+  color: #d9c6c6;
+  background: #fff;
+  clear: both;
+}
+
+/* リンク */
+.l-link {
+  clear: both;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-link__button {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.p-button {
+  clear: both;
+  display: inline-block;
+  padding: 10px 5px 10px 30px;
+  text-decoration: none;
+  /* color: #acd3e2; */
+  border: solid 2px #acd3e2;
+  letter-spacing: .5em;
+}
+
+.p-alert {
+  /* color: #acd3e2; */
+  margin: 10px 0 0 0;
+  font-size: .8em;
+  text-align: left;
+}
+
+/* フッター */
+.l-footer {
+  background-color: #0a0a70;
+  height: 130px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* padding-left: 200px; */
+}
+
+.p-logo {
+  width: 30%;
+  flex-grow: 1;
+}
+
+.p-footer__company {
+  /* color: #ffffff; */
+  display: flex;
+  vertical-align: baseline;
+  flex-grow: 2;
+}
+
+.p-footer__TEMPUR {
+  /* font-size: 1.5em; */
+  padding: 0 0 0 .5em;
+  font-weight: 200;
+}
+
+.p-footer__Web {
+  /* font-size: 1.5em; */
+  padding: 0 .5em 0 .5em;
+  font-weight: bold;
+}
+
+.p-footer__Tempur {
+  padding: 0 .5em 0 .5em;
+  font-weight: 200;
+  /* line-height: 1.5em; */
+}
+
+.p-footer__Web-Outlet {
+  padding: 0 .5em 0 .5em;
+  /* line-height: 1.5em; */
+}
+
+/* 色 */
+.co-white {
+  color: #fff;
+}
+
+.co-gray {
+  color: #575757;
+}
+
+
+
+/* フォントサイズ */
+.font-size__xxl {
+  font-size: 1.5em;
+}
+
+/* 行間 */
+.line-height__xl {
+  line-height: 1.5em;
+}
+
+/* 中央寄せ */
+
+/*　画面サイズが480pxからはここを読み込む　*/
+@media screen and (min-width:480px) {
+  .p-welcom__top__main {
+    font-size: 1em;
+  }
+}
+
+/* 画面サイズが768pxから1024pxまではここを読み込む */
+/* @media screen and (min-width:768px) and (max-width:1024px) { */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .p-welcom__top__main {
+    font-size: 2em;
+  }
+}
+
+/*　画面サイズが1024pxからはここを読み込む　*/
+@media screen and (min-width:1024px) {
+  .p-welcom__top__main {
+    font-size: 3em;
+  }
+}

@@ -1,0 +1,44 @@
+/* フッター */
+.l-footer {
+  background-color: #0a0a70;
+  height: 130px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* padding-left: 200px; */
+}
+
+.p-logo {
+  width: 30%;
+  flex-grow: 1;
+}
+
+.p-footer__company {
+  /* color: #ffffff; */
+  display: flex;
+  vertical-align: baseline;
+  flex-grow: 2;
+}
+
+.p-footer__TEMPUR {
+  /* font-size: 1.5em; */
+  padding: 0 0 0 .5em;
+  font-weight: 200;
+}
+
+.p-footer__Web {
+  /* font-size: 1.5em; */
+  padding: 0 .5em 0 .5em;
+  font-weight: bold;
+}
+
+.p-footer__Tempur {
+  padding: 0 .5em 0 .5em;
+  font-weight: 200;
+  /* line-height: 1.5em; */
+}
+
+.p-footer__Web-Outlet {
+  padding: 0 .5em 0 .5em;
+  /* line-height: 1.5em; */
+}
