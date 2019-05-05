@@ -1,15 +1,18 @@
+.p-main__page{
+
+}
 
 .p-concept {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 750px;
 }
 
 .p-concept__img {
   background-image: url(/garden/img/img__1.jpg);
   overflow: hidden;
   background-size: cover;
-  height: 700px;
+  height: 750px;
   width: 600px;
   text-align: left;
   position: absolute;
